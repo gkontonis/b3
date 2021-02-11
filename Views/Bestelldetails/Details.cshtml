@@ -1,0 +1,58 @@
+﻿@model KontonisAG.Models.Bestelldetails
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Bestelldetails</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Einzelpreis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Einzelpreis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Anzahl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Anzahl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rabatt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rabatt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Artikel.Artikelname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Artikel.Artikelname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bestellungen.Bestelldatum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bestellungen.Bestelldatum)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Bestell_Nr }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

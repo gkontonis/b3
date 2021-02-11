@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KontonisAGModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Artikel">
+    <Key>
+      <PropertyRef Name="Artikel-Nr" />
+    </Key>
+    <Property Name="Artikel-Nr" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Artikelname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Lieferanten-Nr" Type="bigint" Nullable="false" />
+    <Property Name="Kategorie-Nr" Type="bigint" Nullable="false" />
+    <Property Name="Liefereinheit" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Einzelpreis" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Lagerbestand" Type="bigint" Nullable="false" />
+    <Property Name="BestellteEinheiten" Type="bigint" Nullable="false" />
+    <Property Name="Mindestbestand" Type="bigint" Nullable="false" />
+    <Property Name="Auslaufartikel" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Bestelldetails">
+    <Key>
+      <PropertyRef Name="Bestell-Nr" />
+    </Key>
+    <Property Name="Bestell-Nr" Type="bigint" Nullable="false" />
+    <Property Name="Artikel-Nr" Type="bigint" Nullable="false" />
+    <Property Name="Einzelpreis" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Anzahl" Type="bigint" Nullable="false" />
+    <Property Name="Rabatt" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Bestellungen">
+    <Key>
+      <PropertyRef Name="Bestell-Nr" />
+    </Key>
+    <Property Name="Bestell-Nr" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kunden-Code" Type="bigint" Nullable="false" />
+    <Property Name="Personal-Nr" Type="bigint" Nullable="false" />
+    <Property Name="Bestelldatum" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Lieferdatum" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Versanddatum" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Versand-Über" Type="bigint" Nullable="false" />
+    <Property Name="Frachtkosten" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Empfänger" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Straße" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Ort" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Region" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PLZ" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Bestimmungsland" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kategorien">
+    <Key>
+      <PropertyRef Name="Kategorie-Nr" />
+    </Key>
+    <Property Name="Kategorie-Nr" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kategoriename" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Beschreibung" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="Abbildung" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Kunden">
+    <Key>
+      <PropertyRef Name="Kunden-Code" />
+    </Key>
+    <Property Name="Kunden-Code" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Firma" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Kontaktperson" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Position" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Straße" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ort" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Region" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PLZ" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Land" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefon" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefax" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Lieferanten">
+    <Key>
+      <PropertyRef Name="Lieferanten-Nr" />
+    </Key>
+    <Property Name="Lieferanten-Nr" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Firma" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Kontaktperson" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Position" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Straße" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Ort" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Region" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PLZ" Type="bigint" Nullable="false" />
+    <Property Name="Land" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefon" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefax" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Homepage" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Personal">
+    <Key>
+      <PropertyRef Name="Personal-Nr" />
+    </Key>
+    <Property Name="Personal-Nr" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nachname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Vorname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Position" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Anrede" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Geburtsdatum" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Einstellung" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Straße" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Ort" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Region" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PLZ" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Land" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefon-Privat" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Durchwahl-Büro" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Foto" Type="varchar" MaxLength="50" />
+    <Property Name="Bemerkungen" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Vorgesetzte(r)" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Versandfirmen">
+    <Key>
+      <PropertyRef Name="Firmen-Nr" />
+    </Key>
+    <Property Name="Firmen-Nr" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Firma" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefon" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Artikel_Nr">
+    <End Role="Artikel" Type="Self.Artikel" Multiplicity="1" />
+    <End Role="Bestelldetails" Type="Self.Bestelldetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artikel">
+        <PropertyRef Name="Artikel-Nr" />
+      </Principal>
+      <Dependent Role="Bestelldetails">
+        <PropertyRef Name="Artikel-Nr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Bestellungen_Nr">
+    <End Role="Bestellungen" Type="Self.Bestellungen" Multiplicity="1" />
+    <End Role="Bestelldetails" Type="Self.Bestelldetails" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Bestellungen">
+        <PropertyRef Name="Bestell-Nr" />
+      </Principal>
+      <Dependent Role="Bestelldetails">
+        <PropertyRef Name="Bestell-Nr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kategorie_lNr">
+    <End Role="Kategorien" Type="Self.Kategorien" Multiplicity="1" />
+    <End Role="Artikel" Type="Self.Artikel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategorien">
+        <PropertyRef Name="Kategorie-Nr" />
+      </Principal>
+      <Dependent Role="Artikel">
+        <PropertyRef Name="Kategorie-Nr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kunden_lCode">
+    <End Role="Kunden" Type="Self.Kunden" Multiplicity="1" />
+    <End Role="Bestellungen" Type="Self.Bestellungen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kunden">
+        <PropertyRef Name="Kunden-Code" />
+      </Principal>
+      <Dependent Role="Bestellungen">
+        <PropertyRef Name="Kunden-Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lieferanten_lNr">
+    <End Role="Lieferanten" Type="Self.Lieferanten" Multiplicity="1" />
+    <End Role="Artikel" Type="Self.Artikel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lieferanten">
+        <PropertyRef Name="Lieferanten-Nr" />
+      </Principal>
+      <Dependent Role="Artikel">
+        <PropertyRef Name="Lieferanten-Nr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personal_lNr">
+    <End Role="Personal" Type="Self.Personal" Multiplicity="1" />
+    <End Role="Bestellungen" Type="Self.Bestellungen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Personal">
+        <PropertyRef Name="Personal-Nr" />
+      </Principal>
+      <Dependent Role="Bestellungen">
+        <PropertyRef Name="Personal-Nr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Versand_Über">
+    <End Role="Versandfirmen" Type="Self.Versandfirmen" Multiplicity="1" />
+    <End Role="Bestellungen" Type="Self.Bestellungen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Versandfirmen">
+        <PropertyRef Name="Firmen-Nr" />
+      </Principal>
+      <Dependent Role="Bestellungen">
+        <PropertyRef Name="Versand-Über" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="KontonisAGModelStoreContainer">
+    <EntitySet Name="Artikel" EntityType="Self.Artikel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Bestelldetails" EntityType="Self.Bestelldetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Bestellungen" EntityType="Self.Bestellungen" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kategorien" EntityType="Self.Kategorien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kunden" EntityType="Self.Kunden" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lieferanten" EntityType="Self.Lieferanten" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Personal" EntityType="Self.Personal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Versandfirmen" EntityType="Self.Versandfirmen" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Artikel_Nr" Association="Self.FK_Artikel_Nr">
+      <End Role="Artikel" EntitySet="Artikel" />
+      <End Role="Bestelldetails" EntitySet="Bestelldetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Bestellungen_Nr" Association="Self.FK_Bestellungen_Nr">
+      <End Role="Bestellungen" EntitySet="Bestellungen" />
+      <End Role="Bestelldetails" EntitySet="Bestelldetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kategorie_lNr" Association="Self.FK_Kategorie_lNr">
+      <End Role="Kategorien" EntitySet="Kategorien" />
+      <End Role="Artikel" EntitySet="Artikel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kunden_lCode" Association="Self.FK_Kunden_lCode">
+      <End Role="Kunden" EntitySet="Kunden" />
+      <End Role="Bestellungen" EntitySet="Bestellungen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lieferanten_lNr" Association="Self.FK_Lieferanten_lNr">
+      <End Role="Lieferanten" EntitySet="Lieferanten" />
+      <End Role="Artikel" EntitySet="Artikel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personal_lNr" Association="Self.FK_Personal_lNr">
+      <End Role="Personal" EntitySet="Personal" />
+      <End Role="Bestellungen" EntitySet="Bestellungen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Versand_Über" Association="Self.FK_Versand_Über">
+      <End Role="Versandfirmen" EntitySet="Versandfirmen" />
+      <End Role="Bestellungen" EntitySet="Bestellungen" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

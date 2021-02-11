@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KontonisAGModelStoreContainer" CdmEntityContainer="KontonisAGEntities">
+    <EntitySetMapping Name="Artikel">
+      <EntityTypeMapping TypeName="KontonisAGModel.Artikel">
+        <MappingFragment StoreEntitySet="Artikel">
+          <ScalarProperty Name="Artikel_Nr" ColumnName="Artikel-Nr" />
+          <ScalarProperty Name="Artikelname" ColumnName="Artikelname" />
+          <ScalarProperty Name="Lieferanten_Nr" ColumnName="Lieferanten-Nr" />
+          <ScalarProperty Name="Kategorie_Nr" ColumnName="Kategorie-Nr" />
+          <ScalarProperty Name="Liefereinheit" ColumnName="Liefereinheit" />
+          <ScalarProperty Name="Einzelpreis" ColumnName="Einzelpreis" />
+          <ScalarProperty Name="Lagerbestand" ColumnName="Lagerbestand" />
+          <ScalarProperty Name="BestellteEinheiten" ColumnName="BestellteEinheiten" />
+          <ScalarProperty Name="Mindestbestand" ColumnName="Mindestbestand" />
+          <ScalarProperty Name="Auslaufartikel" ColumnName="Auslaufartikel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bestelldetails">
+      <EntityTypeMapping TypeName="KontonisAGModel.Bestelldetails">
+        <MappingFragment StoreEntitySet="Bestelldetails">
+          <ScalarProperty Name="Bestell_Nr" ColumnName="Bestell-Nr" />
+          <ScalarProperty Name="Artikel_Nr" ColumnName="Artikel-Nr" />
+          <ScalarProperty Name="Einzelpreis" ColumnName="Einzelpreis" />
+          <ScalarProperty Name="Anzahl" ColumnName="Anzahl" />
+          <ScalarProperty Name="Rabatt" ColumnName="Rabatt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bestellungen">
+      <EntityTypeMapping TypeName="KontonisAGModel.Bestellungen">
+        <MappingFragment StoreEntitySet="Bestellungen">
+          <ScalarProperty Name="Bestell_Nr" ColumnName="Bestell-Nr" />
+          <ScalarProperty Name="Kunden_Code" ColumnName="Kunden-Code" />
+          <ScalarProperty Name="Personal_Nr" ColumnName="Personal-Nr" />
+          <ScalarProperty Name="Bestelldatum" ColumnName="Bestelldatum" />
+          <ScalarProperty Name="Lieferdatum" ColumnName="Lieferdatum" />
+          <ScalarProperty Name="Versanddatum" ColumnName="Versanddatum" />
+          <ScalarProperty Name="Versand_Über" ColumnName="Versand-Über" />
+          <ScalarProperty Name="Frachtkosten" ColumnName="Frachtkosten" />
+          <ScalarProperty Name="Empfänger" ColumnName="Empfänger" />
+          <ScalarProperty Name="Straße" ColumnName="Straße" />
+          <ScalarProperty Name="Ort" ColumnName="Ort" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="PLZ" ColumnName="PLZ" />
+          <ScalarProperty Name="Bestimmungsland" ColumnName="Bestimmungsland" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kategorien">
+      <EntityTypeMapping TypeName="KontonisAGModel.Kategorien">
+        <MappingFragment StoreEntitySet="Kategorien">
+          <ScalarProperty Name="Kategorie_Nr" ColumnName="Kategorie-Nr" />
+          <ScalarProperty Name="Kategoriename" ColumnName="Kategoriename" />
+          <ScalarProperty Name="Beschreibung" ColumnName="Beschreibung" />
+          <ScalarProperty Name="Abbildung" ColumnName="Abbildung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kunden">
+      <EntityTypeMapping TypeName="KontonisAGModel.Kunden">
+        <MappingFragment StoreEntitySet="Kunden">
+          <ScalarProperty Name="Kunden_Code" ColumnName="Kunden-Code" />
+          <ScalarProperty Name="Firma" ColumnName="Firma" />
+          <ScalarProperty Name="Kontaktperson" ColumnName="Kontaktperson" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="Straße" ColumnName="Straße" />
+          <ScalarProperty Name="Ort" ColumnName="Ort" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="PLZ" ColumnName="PLZ" />
+          <ScalarProperty Name="Land" ColumnName="Land" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Telefax" ColumnName="Telefax" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lieferanten">
+      <EntityTypeMapping TypeName="KontonisAGModel.Lieferanten">
+        <MappingFragment StoreEntitySet="Lieferanten">
+          <ScalarProperty Name="Lieferanten_Nr" ColumnName="Lieferanten-Nr" />
+          <ScalarProperty Name="Firma" ColumnName="Firma" />
+          <ScalarProperty Name="Kontaktperson" ColumnName="Kontaktperson" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="Straße" ColumnName="Straße" />
+          <ScalarProperty Name="Ort" ColumnName="Ort" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="PLZ" ColumnName="PLZ" />
+          <ScalarProperty Name="Land" ColumnName="Land" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Telefax" ColumnName="Telefax" />
+          <ScalarProperty Name="Homepage" ColumnName="Homepage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personal">
+      <EntityTypeMapping TypeName="KontonisAGModel.Personal">
+        <MappingFragment StoreEntitySet="Personal">
+          <ScalarProperty Name="Personal_Nr" ColumnName="Personal-Nr" />
+          <ScalarProperty Name="Nachname" ColumnName="Nachname" />
+          <ScalarProperty Name="Vorname" ColumnName="Vorname" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="Anrede" ColumnName="Anrede" />
+          <ScalarProperty Name="Geburtsdatum" ColumnName="Geburtsdatum" />
+          <ScalarProperty Name="Einstellung" ColumnName="Einstellung" />
+          <ScalarProperty Name="Straße" ColumnName="Straße" />
+          <ScalarProperty Name="Ort" ColumnName="Ort" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="PLZ" ColumnName="PLZ" />
+          <ScalarProperty Name="Land" ColumnName="Land" />
+          <ScalarProperty Name="Telefon_Privat" ColumnName="Telefon-Privat" />
+          <ScalarProperty Name="Durchwahl_Büro" ColumnName="Durchwahl-Büro" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+          <ScalarProperty Name="Bemerkungen" ColumnName="Bemerkungen" />
+          <ScalarProperty Name="Vorgesetzte_r_" ColumnName="Vorgesetzte(r)" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Versandfirmen">
+      <EntityTypeMapping TypeName="KontonisAGModel.Versandfirmen">
+        <MappingFragment StoreEntitySet="Versandfirmen">
+          <ScalarProperty Name="Firmen_Nr" ColumnName="Firmen-Nr" />
+          <ScalarProperty Name="Firma" ColumnName="Firma" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

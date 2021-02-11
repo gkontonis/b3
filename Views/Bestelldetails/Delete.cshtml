@@ -1,0 +1,64 @@
+﻿@model KontonisAG.Models.Bestelldetails
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Bestelldetails</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Einzelpreis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Einzelpreis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Anzahl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Anzahl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rabatt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rabatt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Artikel.Artikelname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Artikel.Artikelname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bestellungen.Bestelldatum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bestellungen.Bestelldatum)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

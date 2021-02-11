@@ -1,0 +1,81 @@
+﻿@model IEnumerable<KontonisAG.Models.Artikel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Artikelname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Liefereinheit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Einzelpreis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lagerbestand)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BestellteEinheiten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Mindestbestand)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Auslaufartikel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Kategorien.Kategoriename)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lieferanten.Firma)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Artikelname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Liefereinheit)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Einzelpreis)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lagerbestand)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BestellteEinheiten)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Mindestbestand)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Auslaufartikel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kategorien.Kategoriename)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lieferanten.Firma)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Artikel_Nr }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Artikel_Nr }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Artikel_Nr })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<KontonisAG.Models.Kategorien>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Kategoriename)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Beschreibung)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Abbildung)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kategoriename)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Beschreibung)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Abbildung)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Kategorie_Nr }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Kategorie_Nr }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Kategorie_Nr })
+        </td>
+    </tr>
+}
+
+</table>

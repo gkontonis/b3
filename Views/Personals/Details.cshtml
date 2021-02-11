@@ -1,0 +1,146 @@
+﻿@model KontonisAG.Models.Personal
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Personal</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nachname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nachname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vorname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vorname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Position)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Position)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Anrede)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Anrede)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Geburtsdatum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Geburtsdatum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Einstellung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Einstellung)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Straße)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Straße)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ort)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ort)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Region)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Region)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PLZ)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PLZ)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Land)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Land)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefon_Privat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefon_Privat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Durchwahl_Büro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Durchwahl_Büro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Foto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Foto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bemerkungen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bemerkungen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vorgesetzte_r_)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vorgesetzte_r_)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Personal_Nr }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

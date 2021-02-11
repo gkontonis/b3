@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1d32f86504364874a9106a805388cb6c" Name="Diagram1" ZoomLevel="77">
+        <EntityTypeShape EntityType="KontonisAGModel.Artikel" Width="1.5" PointX="3.125" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KontonisAGModel.Bestelldetails" Width="1.5" PointX="5.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KontonisAGModel.Bestellungen" Width="1.5" PointX="7.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KontonisAGModel.Kategorien" Width="1.5" PointX="1.125" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KontonisAGModel.Kunden" Width="1.5" PointX="11" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KontonisAGModel.Lieferanten" Width="1.5" PointX="1" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KontonisAGModel.Personal" Width="1.5" PointX="5.875" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KontonisAGModel.Versandfirmen" Width="1.5" PointX="11" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="KontonisAGModel.FK_Artikel_Nr" ManuallyRouted="false" />
+        <AssociationConnector Association="KontonisAGModel.FK_Kategorie_lNr" ManuallyRouted="false" />
+        <AssociationConnector Association="KontonisAGModel.FK_Lieferanten_lNr" ManuallyRouted="false" />
+        <AssociationConnector Association="KontonisAGModel.FK_Bestellungen_Nr" ManuallyRouted="false" />
+        <AssociationConnector Association="KontonisAGModel.FK_Kunden_lCode" ManuallyRouted="false" />
+        <AssociationConnector Association="KontonisAGModel.FK_Personal_lNr" ManuallyRouted="false" />
+        <AssociationConnector Association="KontonisAGModel.FK_Versand_Über" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

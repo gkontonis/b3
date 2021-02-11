@@ -1,0 +1,123 @@
+﻿@model IEnumerable<KontonisAG.Models.Personal>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nachname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Vorname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Position)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Anrede)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Geburtsdatum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Einstellung)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Straße)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ort)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Region)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PLZ)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Land)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefon_Privat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Durchwahl_Büro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Foto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Bemerkungen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Vorgesetzte_r_)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nachname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Vorname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Position)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Anrede)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Geburtsdatum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Einstellung)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Straße)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ort)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Region)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PLZ)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Land)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefon_Privat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Durchwahl_Büro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Foto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Bemerkungen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Vorgesetzte_r_)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Personal_Nr }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Personal_Nr }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Personal_Nr })
+        </td>
+    </tr>
+}
+
+</table>

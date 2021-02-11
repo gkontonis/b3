@@ -1,0 +1,90 @@
+﻿@model KontonisAG.Models.Artikel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Artikel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Artikelname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Artikelname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Liefereinheit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Liefereinheit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Einzelpreis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Einzelpreis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lagerbestand)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lagerbestand)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BestellteEinheiten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BestellteEinheiten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mindestbestand)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mindestbestand)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Auslaufartikel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Auslaufartikel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kategorien.Kategoriename)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kategorien.Kategoriename)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lieferanten.Firma)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lieferanten.Firma)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Artikel_Nr }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

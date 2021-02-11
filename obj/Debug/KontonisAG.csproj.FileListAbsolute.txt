@@ -1,0 +1,184 @@
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\KontonisAG.dll.config
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\KontonisAG.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\KontonisAG.pdb
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\csc.exe
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\csc.exe.config
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\csc.rsp
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\csi.exe
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\csi.exe.config
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\csi.rsp
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.AppContext.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Console.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.IO.Compression.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Net.Http.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.ValueTuple.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\vbc.exe
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\vbc.exe.config
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\vbc.rsp
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\VBCSCompiler.exe
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\Antlr3.Runtime.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\EntityFramework.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\EntityFramework.SqlServer.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\Newtonsoft.Json.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.Helpers.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.Mvc.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.Optimization.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.Razor.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.WebPages.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.WebPages.Razor.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\WebGrease.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\EntityFramework.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\EntityFramework.SqlServer.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.Helpers.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.Mvc.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.Optimization.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.Razor.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.WebPages.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\System.Web.WebPages.Razor.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\Newtonsoft.Json.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\Antlr3.Runtime.pdb
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\de\EntityFramework.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\de\EntityFramework.SqlServer.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\de\System.Web.Helpers.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\de\System.Web.Mvc.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\de\System.Web.Optimization.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\de\System.Web.Razor.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\de\System.Web.WebPages.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\de\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\bin\de\System.Web.WebPages.Razor.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\obj\Debug\KontonisAG.csproj.CoreCompileInputs.cache
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\obj\Debug\KontonisAG.csproj.CopyComplete
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\obj\Debug\KontonisAG.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\obj\Debug\KontonisAG.pdb
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK\KontonisAG\obj\Debug\KontonisAG.csprojAssemblyReference.cache
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\KontonisAG.dll.config
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\KontonisAG.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\KontonisAG.pdb
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\csc.exe
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\csc.exe.config
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\csc.rsp
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\csi.exe
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\csi.exe.config
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\csi.rsp
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.AppContext.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Console.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.IO.Compression.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Net.Http.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.ValueTuple.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\vbc.exe
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\vbc.exe.config
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\vbc.rsp
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\VBCSCompiler.exe
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\Antlr3.Runtime.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\EntityFramework.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\EntityFramework.SqlServer.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\Newtonsoft.Json.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.Helpers.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.Mvc.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.Optimization.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.Razor.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.WebPages.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.WebPages.Razor.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\WebGrease.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\EntityFramework.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\EntityFramework.SqlServer.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.Helpers.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.Mvc.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.Optimization.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.Razor.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.WebPages.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\System.Web.WebPages.Razor.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\Newtonsoft.Json.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\Antlr3.Runtime.pdb
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\de\EntityFramework.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\de\EntityFramework.SqlServer.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\de\System.Web.Helpers.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\de\System.Web.Mvc.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\de\System.Web.Optimization.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\de\System.Web.Razor.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\de\System.Web.WebPages.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\de\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\bin\de\System.Web.WebPages.Razor.resources.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\obj\Debug\KontonisAG.csprojAssemblyReference.cache
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\obj\Debug\KontonisAG.csproj.CoreCompileInputs.cache
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\obj\Debug\KontonisAG.csproj.CopyComplete
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\obj\Debug\KontonisAG.dll
+C:\Users\Georg\Desktop\Leben\Arbeit\BLOCK3 TODO\KontonisAG\obj\Debug\KontonisAG.pdb
